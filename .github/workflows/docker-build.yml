@@ -23,10 +23,12 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       # 🏗️ Step 2: Build and Push Docker image
-     - name: Build and Push Docker image
+   - name: Build and Push Docker image
   uses: docker/build-push-action@v5
   with:
     context: .
     push: true
     tags: prasadreddy75647/react-docker-demo:latest
+
+
 
