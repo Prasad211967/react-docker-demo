@@ -1,6 +1,5 @@
-// Trigger Docker Hub push - credentials fixed
+// Trigger fixed Docker tag push
 
-// Trigger Docker Hub push
 import React from "react";
 
 function App() {
