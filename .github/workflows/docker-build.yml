@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/react-docker-demo:latest
+          tags: ${{ secrets.prasadreddy75647}}/react-docker-demo:latest
